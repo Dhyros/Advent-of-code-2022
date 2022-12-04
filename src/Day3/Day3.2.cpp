@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
 	// Check the amount of arguments
 	if (argc != 2) {
 		cerr <<"Error: Invalida amount of arguments." << endl;
-		cerr << "Uso: Day1 <input>" << endl;
+		cerr << "Uso: Day3.1 <input>" << endl;
 		exit(-1);
 	}
 
@@ -30,9 +30,6 @@ int main(int argc, char **argv) {
 		cerr << "Error opening file \"" << argv[1] << "\"." << endl;
 		exit(-1);
 	}
-
-	// cout << (int)'p'% (int)'a' +1 << endl;
-	// cout << (int)'L'% (int)'A' + 27 << endl;
 
 	// Reading the input file
 	string str[3];

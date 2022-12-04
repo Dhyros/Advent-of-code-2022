@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
 
 	// Check the amount of arguments
 	if (argc != 2) {
-		cerr <<"Error: Invalida amount of arguments." << endl;
+		cerr <<"Error: Invalid amount of arguments." << endl;
 		cerr << "Uso: Day1 <input>" << endl;
 		exit(-1);
 	}
