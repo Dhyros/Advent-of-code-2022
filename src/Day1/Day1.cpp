@@ -74,6 +74,6 @@ int main(int argc, char **argv) {
 
 	// Amount of calories carried in total
 	cout << "They carry " << total << " calories in total." << endl;
-	
+
 	return 0;
 }
